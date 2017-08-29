@@ -1,0 +1,16 @@
+{
+  "name": "common-styled-components",
+  "version": "0.0.1",
+  "description": "Common React components built with styled-components",
+  "main": "index.js",
+  "repository": "git@github.com:adamgruber/common-styled-components.git",
+  "author": "Adam Gruber <talknmime@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash.compact": "^3.0.1",
+    "lodash.includes": "^4.3.0",
+    "lodash.isfinite": "^3.3.2",
+    "lodash.map": "^4.6.0",
+    "styled-components": "^2.1.2"
+  }
+}
