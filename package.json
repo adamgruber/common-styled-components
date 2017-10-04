@@ -2,11 +2,10 @@
   "name": "common-styled-components",
   "version": "0.0.1",
   "description": "Common React components built with styled-components",
-  "main": "index.js",
-  "files": [
-    "components",
-    "utils.js"
-  ],
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src -d dist"
+  },
   "repository": "git@github.com:adamgruber/common-styled-components.git",
   "author": "Adam Gruber <talknmime@gmail.com>",
   "license": "MIT",
@@ -16,5 +15,9 @@
     "lodash.isfinite": "^3.3.2",
     "lodash.map": "^4.6.0",
     "styled-components": "^2.1.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0"
   }
 }
