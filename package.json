@@ -4,6 +4,7 @@
   "description": "Common React components built with styled-components",
   "main": "dist/index.js",
   "scripts": {
+    "prepack": "npm run build",
     "build": "babel src -d dist"
   },
   "repository": "git@github.com:adamgruber/common-styled-components.git",
